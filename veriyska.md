@@ -1,4 +1,4 @@
-# veriyskä
+# Veriyskä
 
 ## Etiologia
 - Aiheuttajia
@@ -47,5 +47,5 @@
 - Ruoansulatuskanavan verenvuoto
 
 ## Hoito
-- aiheuttajan mukaan
-- oireenmukainen hoito, traneksaamihappo 1g x 3 p.o.
+- Aiheuttajan mukaan
+- Oireenmukainen hoito, traneksaamihappo 1g x 3 p.o.
