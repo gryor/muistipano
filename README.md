@@ -1,4 +1,4 @@
 muistipano
 ==========
 
-Muistiinpanoja json-tiedostomuodossa.
+Muistiinpanoja markdown-tiedostomuodossa.
