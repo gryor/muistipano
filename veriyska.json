@@ -1,10 +1,10 @@
 {
-	"nimi": "veriyskä",
-	"kuvaus": [{
-		"nimi": "etiologia",
-		"kuvaus": [{
-			"nimi": "aiheuttajia",
-			"kuvaus": [
+	"name": "veriyskä",
+	"content": [{
+		"name": "etiologia",
+		"content": [{
+			"name": "aiheuttajia",
+			"content": [
 				"krooninen tai akuutti keuhkoputkentulehdus",
 				"keuhkokuume",
 				"paise",
@@ -22,10 +22,10 @@
 			]
 		}]
 	}, {
-		"nimi": "diagnoosi",
-		"kuvaus": [{
-			"nimi": "nykytilanne ja esitiedot",
-			"kuvaus": [
+		"name": "diagnoosi",
+		"content": [{
+			"name": "nykytilanne ja esitiedot",
+			"content": [
 				"tupakka",
 				"lääkitys",
 				"tartuntaoireet",
@@ -33,28 +33,28 @@
 				"rintakipu"
 			]
 		}, {
-			"nimi": "ESH:n konsultointi",
-			"kuvaus": [
+			"name": "ESH:n konsultointi",
+			"content": [
 				"erityisesti, jos potilas tupakoi, veriyskä liittyy johonkin muuhun kuin akuuttiin tulehdukseen eikä mahdollinen muutos rintaröntgenissä korjaannu seurannassa."
 			]
 		}]
 	}, {
-		"nimi": "laboratoriokokeet",
-		"kuvaus": [
+		"name": "laboratoriokokeet",
+		"content": [
 			"PVK, CRP, La, INR, EKG", {
-				"nimi": "yskösnäytteet",
-				"kuvaus": [
+				"name": "yskösnäytteet",
+				"content": [
 					"tuberkuloosivärjäys ja -viljely",
 					"sytologia"
 				]
 			}
 		]
 	}, {
-		"nimi": "rintaröntgen",
-		"kuvaus": [
+		"name": "rintaröntgen",
+		"content": [
 			"löydös vaihtelee aiheuttajan mukaan", {
-				"nimi": "esim.",
-				"kuvaus": [
+				"name": "esim.",
+				"content": [
 					"paikallinen infiltraatti",
 					"diffuusi varjostuma",
 					"ei varjostumaa"
@@ -62,8 +62,8 @@
 			}
 		]
 	}, {
-		"nimi": "erotusdiagnoosi",
-		"kuvaus": [
+		"name": "erotusdiagnoosi",
+		"content": [
 			"nenäverenvuoto",
 			"poskiontelotulehdus",
 			"ienverenvuoto",

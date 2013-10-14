@@ -7,14 +7,14 @@ function nestedlist(content, level) {
 	var l = document.createElement('ul');
 	var t = document.createElement('span');
 
-	t.innerHTML = capitalize(content.nimi);
+	t.innerHTML = capitalize(content.name);
 	i.appendChild(t);
 	i.appendChild(l);
 
 	i.className = 'sairaus-nestedlist';
 	t.className = 'sairaus-nestedlist-title';
 
-	content.kuvaus.forEach(function(e) {
+	content.content.forEach(function(e) {
 		if (typeof e === 'string') {
 			var item = document.createElement('li');
 			item.innerHTML = capitalize(e);
@@ -32,13 +32,13 @@ function subsection(content, level) {
 	var l = document.createElement('ul');
 	var h = document.createElement('h' + ((level === undefined) ? 3 : level));
 
-	h.innerHTML = capitalize(content.nimi);
+	h.innerHTML = capitalize(content.name);
 	ss.appendChild(h);
 	ss.appendChild(l);
 
 	ss.className = 'sairaus-subsection';
 
-	content.kuvaus.forEach(function(e) {
+	content.content.forEach(function(e) {
 		if (typeof e === 'string') {
 			var item = document.createElement('li');
 			item.innerHTML = capitalize(e);
@@ -55,12 +55,12 @@ function section(content, level) {
 	var s = document.createElement('section');
 	var h = document.createElement('h' + ((level === undefined) ? 2 : level));
 
-	h.innerHTML = capitalize(content.nimi);
+	h.innerHTML = capitalize(content.name);
 	s.appendChild(h);
 
 	s.className = 'sairaus-section';
 
-	content.kuvaus.forEach(function(e) {
+	content.content.forEach(function(e) {
 		s.appendChild(subsection(e, ((level === undefined) ? 2 : level) + 1));
 	});
 
