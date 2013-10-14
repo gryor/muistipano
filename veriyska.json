@@ -1,0 +1,73 @@
+{
+	"nimi": "veriyskä",
+	"kuvaus": [{
+		"nimi": "etiologia",
+		"kuvaus": [{
+			"nimi": "aiheuttajia",
+			"kuvaus": [
+				"krooninen tai akuutti keuhkoputkentulehdus",
+				"keuhkokuume",
+				"paise",
+				"keuhkoveritulppa",
+				"keuhkotukos",
+				"syöpä",
+				"keuhkopöhö",
+				"vasemman eteiskammioläpän ahtauma",
+				"vammat",
+				"vierasesine",
+				"vuotohäiriö",
+				"hyytymisenestohoito",
+				"verisuonitulehdukset",
+				"rintavamma"
+			]
+		}]
+	}, {
+		"nimi": "diagnoosi",
+		"kuvaus": [{
+			"nimi": "nykytilanne ja esitiedot",
+			"kuvaus": [
+				"tupakka",
+				"lääkitys",
+				"tartuntaoireet",
+				"hengenahdistus",
+				"rintakipu"
+			]
+		}, {
+			"nimi": "ESH:n konsultointi",
+			"kuvaus": [
+				"erityisesti, jos potilas tupakoi, veriyskä liittyy johonkin muuhun kuin akuuttiin tulehdukseen eikä mahdollinen muutos rintaröntgenissä korjaannu seurannassa."
+			]
+		}]
+	}, {
+		"nimi": "laboratoriokokeet",
+		"kuvaus": [
+			"PVK, CRP, La, INR, EKG", {
+				"nimi": "yskösnäytteet",
+				"kuvaus": [
+					"tuberkuloosivärjäys ja -viljely",
+					"sytologia"
+				]
+			}
+		]
+	}, {
+		"nimi": "rintaröntgen",
+		"kuvaus": [
+			"löydös vaihtelee aiheuttajan mukaan", {
+				"nimi": "esim.",
+				"kuvaus": [
+					"paikallinen infiltraatti",
+					"diffuusi varjostuma",
+					"ei varjostumaa"
+				]
+			}
+		]
+	}, {
+		"nimi": "erotusdiagnoosi",
+		"kuvaus": [
+			"nenäverenvuoto",
+			"poskiontelotulehdus",
+			"ienverenvuoto",
+			"ruoansulatuskanavan verenvuoto"
+		]
+	}]
+}
